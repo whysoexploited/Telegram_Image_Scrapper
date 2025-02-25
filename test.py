@@ -3,15 +3,15 @@ from telethon.tl.functions.channels import JoinChannelRequest
 import os
 
 # 🔹 Telegram API Credentials (Get yours from https://my.telegram.org)
-API_ID = 25205675  # Your API ID
-API_HASH = "bc0464f8cb30f0d8fe0453cbe62bd531"  # Your API Hash
-PHONE_NUMBER = "+40729581023"  # Your Telegram phone number
+API_ID =   # Your API ID
+API_HASH = ""  # Your API Hash
+PHONE_NUMBER = ""  # Your Telegram phone number
 
 # 🔹 Group username from the link
 GROUP_USERNAME = "@shaormacudetoate"  # Public group username
 
 # 🔹 Folder to save images
-image_dir = r"C:\Users\uie78384\Downloads\Panou"
+image_dir = r"" # USE THE DIRECTORY FOR IMAGE SAVING
 os.makedirs(image_dir, exist_ok=True)
 
 # 🔹 Connect to Telegram
